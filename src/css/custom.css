@@ -89,8 +89,8 @@ article {
 }
 
 /* Hide redundant author info on single-author blog */
-.blog-post-authors,
-[class*="blogPostAuthor"],
-[class*="authorRow"] {
-  display: none;
+[class*="authorCol"],
+[class*="authorRow"],
+[class*="blogPostAuthors"] {
+  display: none !important;
 }
