@@ -41,8 +41,8 @@ export default function Home(): React.JSX.Element {
           <p>
             <strong>Somewhere in between,</strong> I picked up a General Management
             program at{" "}
-            <a href="https://www.iimb.ac.in/" target="_blank" rel="noopener noreferrer">
-              IIM Bangalore
+            <a href="https://www.iimb.ac.in/" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+              IIMB
             </a>{" "}
             — for fun, mostly. Ended up finishing top of the class as the youngest
             in the cohort, winning strategy competitions along the way. Turns out
