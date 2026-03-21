@@ -1,0 +1,30 @@
+engineering:
+  label: Engineering
+  permalink: /engineering
+devops:
+  label: DevOps
+  permalink: /devops
+ci-cd:
+  label: CI/CD
+  permalink: /ci-cd
+leadership:
+  label: Leadership
+  permalink: /leadership
+culture:
+  label: Culture
+  permalink: /culture
+innersource:
+  label: InnerSource
+  permalink: /innersource
+open-source:
+  label: Open Source
+  permalink: /open-source
+ai-tooling:
+  label: AI Tooling
+  permalink: /ai-tooling
+architecture:
+  label: Architecture
+  permalink: /architecture
+opinion:
+  label: Opinion
+  permalink: /opinion

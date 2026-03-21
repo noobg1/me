@@ -1,0 +1,88 @@
+:root {
+  --ifm-font-family-base: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --ifm-container-width-xl: 1400px;
+}
+
+[data-theme="light"] {
+  --ifm-color-primary: #1a1a2e;
+  --ifm-color-primary-dark: #141422;
+  --ifm-color-primary-darker: #111120;
+  --ifm-color-primary-darkest: #0a0a15;
+  --ifm-color-primary-light: #20203a;
+  --ifm-color-primary-lighter: #23233e;
+  --ifm-color-primary-lightest: #2c2c4e;
+  --ifm-background-color: #fafafa;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #c9c9c9;
+  --ifm-color-primary-dark: #b0b0b0;
+  --ifm-color-primary-darker: #a0a0a0;
+  --ifm-color-primary-darkest: #808080;
+  --ifm-color-primary-light: #d8d8d8;
+  --ifm-color-primary-lighter: #e0e0e0;
+  --ifm-color-primary-lightest: #f0f0f0;
+  --ifm-background-color: #121212;
+  --ifm-background-surface-color: #1a1a1a;
+  --ifm-navbar-background-color: #121212;
+  --ifm-footer-background-color: #0a0a0a;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: var(--ifm-background-color);
+}
+
+article {
+  max-width: 900px;
+}
+
+/* Landing page */
+.landing {
+  padding: 4rem 10vw;
+}
+
+.hero-section {
+  margin-bottom: 1.5rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.hero-section .subtitle {
+  font-size: 1.1rem;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.story p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  opacity: 0.85;
+  margin-bottom: 1.25rem;
+}
+
+.story a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cta {
+  margin-top: 2.5rem;
+}
+
+.cta-link {
+  padding: 0.6rem 1.5rem;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+  font-size: 1rem;
+}
+
+.cta-link:hover {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
+  text-decoration: none;
+}
