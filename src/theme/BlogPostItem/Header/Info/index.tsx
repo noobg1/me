@@ -1,23 +1,17 @@
-import React, { useEffect, useRef } from "react";
-import Info from "@theme-original/BlogPostItem/Header/Info";
-import type InfoType from "@theme/BlogPostItem/Header/Info";
-import type { WrapperProps } from "@docusaurus/types";
+import React from "react";
+import { useBlogPost } from "@docusaurus/plugin-content-blog/client";
 
-type Props = WrapperProps<typeof InfoType>;
-
-export default function InfoWrapper(props: Props): React.JSX.Element {
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const time = ref.current?.querySelector("time");
-    if (time?.dateTime) {
-      time.textContent = new Date(time.dateTime).getFullYear().toString();
-    }
-  }, []);
+export default function InfoWrapper(): React.JSX.Element {
+  const { metadata } = useBlogPost();
+  const year = new Date(metadata.date).getFullYear();
+  const readingTime = metadata.readingTime
+    ? `${Math.ceil(metadata.readingTime)} min read`
+    : "";
 
   return (
-    <div ref={ref}>
-      <Info {...props} />
+    <div className="margin-vert--md">
+      <time dateTime={metadata.date}>{year}</time>
+      {readingTime && <> · {readingTime}</>}
     </div>
   );
 }
