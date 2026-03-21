@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "noobj | Builder & Architect of Chaos",
   tagline: "Shipping code, breaking silos, questioning everything",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.svg",
 
   url: "https://noobj.me",
   baseUrl: "/",
