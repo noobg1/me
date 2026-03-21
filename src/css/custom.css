@@ -86,3 +86,9 @@ article {
   color: var(--ifm-background-color);
   text-decoration: none;
 }
+
+/* Hide redundant author info on single-author blog */
+.blog-post-authors,
+[class*="blogPostAuthor"] {
+  display: none;
+}
