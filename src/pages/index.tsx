@@ -9,6 +9,11 @@ export default function Home(): React.JSX.Element {
     <Layout description={siteConfig.tagline}>
       <main className="landing">
         <section className="hero-section">
+          <img
+            src="/img/headshot.jpeg"
+            alt="Jeevan D C"
+            className="headshot"
+          />
           <h1>Jeevan D C</h1>
           <p className="subtitle">Builder & Architect of Chaos</p>
         </section>
