@@ -22,6 +22,17 @@ export default function Home(): React.JSX.Element {
 
         <section className="story">
           <p>
+            <strong>I've been automating my way out of boredom since 2015.</strong> In
+            my third year of engineering, I got tired of refreshing the college
+            results page during holidays — so I wrote a scraper that played music
+            on my laptop when the page changed. Then I didn't stop. I scraped the
+            entire college's results, bypassed the captcha (it was just adding two
+            numbers), and suddenly had grades for every department — friends,
+            rivals, crushes, exes, the lot. That's when I knew: if something can
+            be automated, it should be. Everything since has been a version of
+            that instinct.
+          </p>
+          <p>
             <strong>These days I work</strong> on tech strategy, org design, and
             talent attraction — the stuff that shapes how engineering actually
             functions. Most orgs end up optimising for local wins — not because
