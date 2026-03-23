@@ -164,22 +164,21 @@ graph TB
 ```
 
 ```mermaid
-graph TB
-    subgraph "🛡️ Actual Governance"
-        direction TB
-        G1["Agent sandboxing — what can it access?"]
-        G2["Audit trails — who prompted what, what was generated?"]
-        G3["Output validation — automated tests, SAST, policy gates"]
-        G4["Eval frameworks — is the output correct and safe?"]
-        G5["Data residency — where do prompts and outputs flow?"]
-        G6["Red teaming — actively trying to break it"]
-        G7["Model version pinning — the model you tested is the model you run"]
-        G8["Human-in-the-loop — risk-based, not blanket"]
-        G9["Cost governance — who's accountable for API spend?"]
-    end
+graph TD
+    Y["✅ Actual Governance — Controls outcomes"]
+    G1["Agent sandboxing — what can it access?"]
+    G2["Audit trails — who prompted what, what was generated?"]
+    G3["Output validation — automated tests, SAST, policy gates"]
+    G4["Eval frameworks — is the output correct and safe?"]
+    G5["Data residency — where do prompts and outputs flow?"]
+    G6["Red teaming — actively trying to break it"]
+    G7["Model version pinning — the model you tested is the model you run"]
+    G8["Human-in-the-loop — risk-based, not blanket"]
+    G9["Cost governance — who's accountable for API spend?"]
 
-    G1 & G2 & G3 & G4 & G5 & G6 & G7 & G8 & G9 -->|"Actually works"| Y["✅ Controls outcomes"]
+    Y --- G1 --- G2 --- G3 --- G4 --- G5 --- G6 --- G7 --- G8 --- G9
 
+    style Y fill:#d4edda,stroke:#28a745,color:#000
     style G1 fill:#d4edda,stroke:#28a745,color:#000
     style G2 fill:#d4edda,stroke:#28a745,color:#000
     style G3 fill:#d4edda,stroke:#28a745,color:#000
@@ -189,7 +188,6 @@ graph TB
     style G7 fill:#d4edda,stroke:#28a745,color:#000
     style G8 fill:#d4edda,stroke:#28a745,color:#000
     style G9 fill:#d4edda,stroke:#28a745,color:#000
-    style Y fill:#d4edda,stroke:#28a745,color:#000
 ```
 
 The question isn't *"is this tool on the approved list?"* It's *"do we have the infrastructure to use any tool safely?"*
