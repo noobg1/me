@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250">
+  <rect width="800" height="250" fill="#1a1a1a"/>
+  <!-- Gridlocked arrows going different directions -->
+  <g transform="translate(320, 25)">
+    <!-- Right arrow -->
+    <line x1="0" y1="40" x2="50" y2="40" stroke="#dc3545" stroke-width="3" opacity="0.8"/>
+    <polygon points="50,33 65,40 50,47" fill="#dc3545" opacity="0.8"/>
+    <!-- Left arrow -->
+    <line x1="160" y1="60" x2="110" y2="60" stroke="#f0a500" stroke-width="3" opacity="0.8"/>
+    <polygon points="110,53 95,60 110,67" fill="#f0a500" opacity="0.8"/>
+    <!-- Down arrow -->
+    <line x1="80" y1="10" x2="80" y2="55" stroke="#4a9eff" stroke-width="3" opacity="0.8"/>
+    <polygon points="73,55 80,70 87,55" fill="#4a9eff" opacity="0.8"/>
+    <!-- Up arrow -->
+    <line x1="80" y1="90" x2="80" y2="45" stroke="#28a745" stroke-width="3" opacity="0.5"/>
+    <polygon points="73,45 80,30 87,45" fill="#28a745" opacity="0.5"/>
+    <!-- Collision/block circle -->
+    <circle cx="80" cy="50" r="18" fill="none" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+  </g>
+  <text x="400" y="165" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="600" fill="#e0e0e0">The Price of Anarchy</text>
+  <text x="400" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#888">when everyone optimises for themselves, nobody wins</text>
+</svg>
