@@ -154,6 +154,17 @@ graph TB
         T4["Blanket tool bans"]
     end
 
+    T1 & T2 & T3 & T4 -.->|"Feels safe"| X["❌ Doesn't prevent incidents"]
+
+    style T1 fill:#f8d7da,stroke:#dc3545,color:#000
+    style T2 fill:#f8d7da,stroke:#dc3545,color:#000
+    style T3 fill:#f8d7da,stroke:#dc3545,color:#000
+    style T4 fill:#f8d7da,stroke:#dc3545,color:#000
+    style X fill:#f8d7da,stroke:#dc3545,color:#000
+```
+
+```mermaid
+graph TB
     subgraph "🛡️ Actual Governance"
         direction TB
         G1["Agent sandboxing — what can it access?"]
@@ -167,13 +178,8 @@ graph TB
         G9["Cost governance — who's accountable for API spend?"]
     end
 
-    T1 & T2 & T3 & T4 -.->|"Feels safe"| X["❌ Doesn't prevent incidents"]
     G1 & G2 & G3 & G4 & G5 & G6 & G7 & G8 & G9 -->|"Actually works"| Y["✅ Controls outcomes"]
 
-    style T1 fill:#f8d7da,stroke:#dc3545,color:#000
-    style T2 fill:#f8d7da,stroke:#dc3545,color:#000
-    style T3 fill:#f8d7da,stroke:#dc3545,color:#000
-    style T4 fill:#f8d7da,stroke:#dc3545,color:#000
     style G1 fill:#d4edda,stroke:#28a745,color:#000
     style G2 fill:#d4edda,stroke:#28a745,color:#000
     style G3 fill:#d4edda,stroke:#28a745,color:#000
@@ -183,7 +189,6 @@ graph TB
     style G7 fill:#d4edda,stroke:#28a745,color:#000
     style G8 fill:#d4edda,stroke:#28a745,color:#000
     style G9 fill:#d4edda,stroke:#28a745,color:#000
-    style X fill:#f8d7da,stroke:#dc3545,color:#000
     style Y fill:#d4edda,stroke:#28a745,color:#000
 ```
 
