@@ -113,3 +113,10 @@ article a {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+/* Keep dark/light toggle visible on mobile (outside hamburger) */
+@media (max-width: 996px) {
+  [class*="colorModeToggle"] {
+    display: flex !important;
+  }
+}
