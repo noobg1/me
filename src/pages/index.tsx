@@ -28,9 +28,9 @@ export default function Home(): React.JSX.Element {
             on my laptop when the page changed. Then I didn't stop. I scraped the
             entire college's results, bypassed the captcha (it was just adding two
             numbers), and suddenly had grades for every department — friends,
-            rivals, crushes, exes, the lot. That's when I knew: if something can
-            be automated, it should be. Everything since has been a version of
-            that instinct.
+            rivals, crushes, exes, the lot. Repetition is a design flaw. That thought shaped everything
+            I've built since — and somewhere along the way, the love for building
+            itself took over.
           </p>
           <p>
             <strong>These days I work</strong> on tech strategy, org design, and
