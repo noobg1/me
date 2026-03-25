@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 180">
+  <rect width="700" height="180" fill="#1a1a1a"/>
+
+  <!-- Bias 1: Zero-sum -->
+  <g transform="translate(80, 25)">
+    <circle cx="20" cy="25" r="16" fill="none" stroke="#dc3545" stroke-width="1.5"/>
+    <line x1="8" y1="25" x2="32" y2="25" stroke="#dc3545" stroke-width="1.5"/>
+    <text x="10" y="30" font-family="system-ui,sans-serif" font-size="10" fill="#dc3545">−</text>
+    <text x="24" y="30" font-family="system-ui,sans-serif" font-size="10" fill="#28a745">+</text>
+    <text x="20" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#dc3545">Zero-Sum</text>
+    <text x="20" y="76" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">"their win = my loss"</text>
+  </g>
+
+  <!-- Bias 2: Loss Aversion -->
+  <g transform="translate(300, 25)">
+    <text x="20" y="20" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#f0a500" opacity="0.9">−4h</text>
+    <text x="20" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#888" opacity="0.5">+org health?</text>
+    <text x="20" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#f0a500">Loss Aversion</text>
+    <text x="20" y="76" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">pain now > gain later</text>
+  </g>
+
+  <!-- Bias 3: Hyperbolic Discounting -->
+  <g transform="translate(510, 25)">
+    <rect x="0" y="8" width="28" height="14" rx="3" fill="#4a9eff" opacity="0.8"/>
+    <text x="14" y="19" text-anchor="middle" font-family="system-ui,sans-serif" font-size="8" fill="#1a1a1a" font-weight="600">TODAY</text>
+    <rect x="10" y="28" width="28" height="14" rx="3" fill="#4a9eff" opacity="0.2"/>
+    <text x="24" y="39" text-anchor="middle" font-family="system-ui,sans-serif" font-size="8" fill="#888">Q3?</text>
+    <text x="20" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#4a9eff">Discounting</text>
+    <text x="20" y="76" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">sprint > future</text>
+  </g>
+
+  <!-- Bottom -->
+  <line x1="60" y1="110" x2="640" y2="110" stroke="#333" stroke-width="1"/>
+  <text x="350" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#e0e0e0">Why Your Brain Chooses to Lose</text>
+  <text x="350" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#888">three biases that make defection feel right</text>
+</svg>
