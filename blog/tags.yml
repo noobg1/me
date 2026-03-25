@@ -28,3 +28,9 @@ architecture:
 opinion:
   label: Opinion
   permalink: /opinion
+game-theory:
+  label: Game Theory
+  permalink: /game-theory
+collaboration:
+  label: Collaboration
+  permalink: /collaboration
