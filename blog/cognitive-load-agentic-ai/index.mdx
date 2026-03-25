@@ -54,22 +54,22 @@ Managing cognitive load isn't about making the work "easy"; it's about clearing 
 
 To understand cognitive load from a psychological perspective, we have to look past the code and focus on the **biological architecture of the human brain**. While software engineering feels like a purely logical exercise, it is actually a high-stakes performance of human memory and attention.
 
-## 1. The Working Memory Bottleneck
+### 1. The Working Memory Bottleneck
 
 At the heart of cognitive load is **Working Memory**, the psychological "workspace" where we temporarily hold and manipulate information.
 
 * **The Constraint:** In 1956, George Miller famously suggested that humans can hold roughly $7 \pm 2$ "chunks" of information at once. Modern research suggests this might be as low as 3 to 5 chunks for complex tasks.
-* **The SE Connection:** When a developer looks at a function that has 15 different variables, 4 nested loops, and 3 external API calls, they are physically exceeding their working memory capacity.
+* **The Engineering Connection:** When a developer looks at a function that has 15 different variables, 4 nested loops, and 3 external API calls, they are physically exceeding their working memory capacity.
 * **The Result:** "Cognitive Overflow." This is the moment a developer says, "Wait, what was I doing?" Their brain literally ran out of temporary storage, and the previous context was overwritten.
 
-## 2. Schema Theory: How Experts "Cheat" the Load
+### 2. Schema Theory: How Experts "Cheat" the Load
 
 Psychologists define a **Schema** as a mental structure that organizes categories of information and the relationships among them. This is the difference between a junior and a senior engineer.
 
 * **Chunking:** An expert doesn't see "an `if` statement, a `for` loop, and a `try-catch` block." They see a **"Circuit Breaker Pattern."** By grouping individual items into a single mental schema, they reduce 10 chunks of information into 1.
 * **Germane Load as Investment:** Germane load is the mental effort spent building these schemas. When you struggle to learn a new architectural pattern, you are performing "productive" psychological work that will lower your intrinsic load in the future.
 
-## 3. Dual Process Theory (System 1 vs. System 2)
+### 3. Dual Process Theory (System 1 vs. System 2)
 
 Popularized by Daniel Kahneman, this theory suggests our brains operate in two modes:
 
@@ -80,15 +80,15 @@ Popularized by Daniel Kahneman, this theory suggests our brains operate in two m
 
 **The Psychological Angle:** High **Extraneous Load** (bad tools, loud offices, messy code) forces a developer to stay in **System 2** for tasks that should be **System 1**. This is why a developer can feel physically exhausted after 8 hours of "just sitting at a desk"—they have depleted their limited pool of "Executive Function" resources.
 
-## 4. The Flow State and Attentional Blink
+### 4. The Flow State and Attentional Blink
 
-The ultimate goal in SE is the **Flow State** (proposed by Mihaly Csikszentmihalyi)—a psychological state of deep "immersion."
+The ultimate goal in software engineering is the **Flow State** (proposed by Mihaly Csikszentmihalyi)—a psychological state of deep "immersion."
 
 * **Interruption Cost:** When a developer is in flow, they have built a fragile "house of cards" in their working memory.
 * **Attentional Blink:** When a Slack notification or a meeting request pops up, the brain undergoes a "switch cost." It can take upwards of **20 minutes** to rebuild that specific mental model.
 * **Cognitive Friction:** High extraneous load acts as "friction" that prevents the brain from ever reaching the flow state, leading to frustration and lower job satisfaction.
 
-## 5. The Psychological Impact
+### 5. The Psychological Impact
 
 | Psychological Aspect | Impact on Software Engineering |
 | :--- | :--- |
@@ -104,7 +104,7 @@ The ultimate goal in SE is the **Flow State** (proposed by Mihaly Csikszentmihal
 
 In the era of Agentic AI, the narrative of cognitive load shifts from **"The Burden of Creation"** to **"The Burden of Orchestration."** If traditional software engineering is like being a lone writer at a desk, managing multiple AI agents is like being the director of an experimental theater troupe: you aren't writing every line anymore, but you are responsible for the coherence, timing, and "hallucination" control of every actor on stage.
 
-## 1. The Psychological Shift: Builder → Director
+### 1. The Psychological Shift: Builder → Director
 
 In a traditional workflow, your cognitive load is primarily **creative**. You hold the logic in your mind and transcribe it. With multiple agents, your role shifts toward **evaluative** load.
 
@@ -114,7 +114,7 @@ Psychologically, *writing* code often engages a flow state. However, *reviewing*
 * **The Problem:** The brain finds it more exhausting to find a needle in a haystack (debugging an agent's subtle logic error) than to build the haystack itself.
 * **The "Losing It" Factor:** When you run 5 agents in parallel, you aren't doing 5x the work; you are doing 5x the *critical auditing*, which depletes your executive function significantly faster.
 
-## 2. The New "Agentic" Cognitive Load Map
+### 2. The New "Agentic" Cognitive Load Map
 
 The three types of cognitive load we discussed previously evolve in an agent-heavy environment:
 
@@ -124,13 +124,13 @@ The three types of cognitive load we discussed previously evolve in an agent-hea
 | **Extraneous** | Dealing with slow IDEs/Meetings. | **Orchestration Noise**: Managing token limits, non-deterministic outputs, and "agent loops." |
 | **Germane** | Learning a new language/pattern. | **Systems Thinking**: Building the mental model of the entire agentic topology. |
 
-## 3. Why Multi-Agent Systems Create a "Complexity Trap"
+### 3. Why Multi-Agent Systems Create a "Complexity Trap"
 
 From a **Systems Thinking** perspective, every new agent added to a system doesn't just add capability; it adds **communication channels**.
 * **The Formula:** $n(n-1)/2$. If you have 5 agents, you have 10 potential points of failure in communication.
 * **Semantic Noise:** Agents often work from "conflicting assumptions." If Agent A assumes a "User" is an ID (integer) and Agent B assumes it's an Email (string), the human manager must now resolve this "hidden" conflict. This is a massive hit to your **working memory**.
 
-## 4. How to Manage Agents "Without Losing It"
+### 4. How to Manage Agents "Without Losing It"
 
 To keep your cognitive load manageable while orchestrating AI, you must move from "Micromanagement" to "Governance."
 
@@ -144,7 +144,7 @@ Don't build a "Bag of Agents" where everyone talks to everyone. Use a **Hierarch
 ### B. Invest in "Context Engineering"
 
 The greatest source of "Agentic Anxiety" is the **Trust Gap**. You don't know *why* the agent did what it did.
-* **The Fix:** Use frameworks that provide **full execution traces** (like LangGraph or Smith).
+* **The Fix:** Use frameworks that provide **full execution traces** (like LangGraph or LangSmith).
 * **Action:** If you can't "see" the thought process, don't ship the agent. Observability is the only antidote to the cognitive load of uncertainty.
 
 ### C. The "Human-on-the-Loop" Strategy
@@ -157,3 +157,9 @@ Stop trying to be "Human-in-the-loop" for every step. It's too taxing.
 In 2026, the most successful engineering leaders aren't those with the most agents; they are those with the **cleanest mental models** of their agentic workflows.
 
 > **The Narcotic of Productivity:** It is easy to feel productive because "work is happening," but if the **Reviewer's Fatigue** leads to a 35% failure rate in production, the cognitive load has simply been deferred, not deleted.
+
+The tools changed. The bottleneck didn't. It's still the space between your ears.
+
+---
+
+*This post connects to the broader theme of how systems shape behaviour. For how game theory explains why teams defect instead of cooperate, read [The Prisoner's Dilemma Is Why You Got Ghosted on Slack](/blog/game-theory-engineering-collaboration). For what happens when everyone optimises locally, read [Why Everyone's Busy But Nothing Ships Faster](/blog/why-everyones-busy-but-nothing-ships-faster).*
