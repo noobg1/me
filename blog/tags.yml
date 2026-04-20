@@ -40,3 +40,9 @@ self-journal:
 personal-growth:
   label: Personal Growth
   permalink: /personal-growth
+communication:
+  label: Communication
+  permalink: /communication
+psychology:
+  label: Psychology
+  permalink: /psychology
