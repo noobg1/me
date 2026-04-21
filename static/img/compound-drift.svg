@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdf6f0"/>
+      <stop offset="100%" stop-color="#f0e6d8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+
+  <text x="400" y="45" text-anchor="middle" font-size="24" font-weight="bold" fill="#3a2a1a">The Compound Effect of the Daily Drift</text>
+  <text x="400" y="70" text-anchor="middle" font-size="14" fill="#7a6a5a" font-style="italic">1% unsaid every day — here's what it costs</text>
+
+  <!-- Timeline axis -->
+  <line x1="80" y1="400" x2="720" y2="400" stroke="#b8a898" stroke-width="2"/>
+
+  <!-- Gap axis -->
+  <line x1="80" y1="400" x2="80" y2="100" stroke="#b8a898" stroke-width="2"/>
+  <text x="40" y="250" text-anchor="middle" font-size="13" fill="#7a6a5a" transform="rotate(-90,40,250)">Distance Between People</text>
+
+  <!-- The drift curve -->
+  <path d="M80,390 C150,388 200,380 280,350 C340,328 380,290 440,240 C500,190 560,150 640,120 C680,108 720,100 720,100" fill="none" stroke="#c45a3c" stroke-width="3"/>
+
+  <!-- The repair curve -->
+  <path d="M80,390 C150,386 200,375 280,360 C340,348 380,340 440,335 C500,332 560,330 640,328 C680,327 720,326 720,326" fill="none" stroke="#4a8a5a" stroke-width="3" stroke-dasharray="8,4"/>
+
+  <!-- Time markers -->
+  <g font-size="12" fill="#5a4a3a" text-anchor="middle">
+    <!-- Day 1 -->
+    <line x1="120" y1="395" x2="120" y2="405" stroke="#b8a898" stroke-width="1"/>
+    <text x="120" y="420">Day 1</text>
+    <circle cx="120" cy="388" r="5" fill="#c45a3c"/>
+    <text x="120" y="378" font-size="10" fill="#7a6a5a" text-anchor="middle">"I'm fine."</text>
+
+    <!-- Week 1 -->
+    <line x1="220" y1="395" x2="220" y2="405" stroke="#b8a898" stroke-width="1"/>
+    <text x="220" y="420">Week 1</text>
+    <circle cx="220" cy="375" r="5" fill="#c45a3c"/>
+
+    <!-- Month 1 -->
+    <line x1="340" y1="395" x2="340" y2="405" stroke="#b8a898" stroke-width="1"/>
+    <text x="340" y="420">Month 1</text>
+    <circle cx="340" cy="330" r="6" fill="#c45a3c"/>
+    <rect x="260" y="295" width="160" height="28" rx="4" fill="#c45a3c" opacity="0.1"/>
+    <text x="340" y="313" font-size="10" fill="#8a3a2a" text-anchor="middle">"We don't really talk anymore."</text>
+
+    <!-- Month 6 -->
+    <line x1="500" y1="395" x2="500" y2="405" stroke="#b8a898" stroke-width="1"/>
+    <text x="500" y="420">Month 6</text>
+    <circle cx="500" cy="220" r="7" fill="#c45a3c"/>
+    <rect x="420" y="185" width="160" height="28" rx="4" fill="#c45a3c" opacity="0.1"/>
+    <text x="500" y="203" font-size="10" fill="#8a3a2a" text-anchor="middle">"You don't understand me."</text>
+
+    <!-- Year 1 -->
+    <line x1="680" y1="395" x2="680" y2="405" stroke="#b8a898" stroke-width="1"/>
+    <text x="680" y="420">Year 1</text>
+    <circle cx="680" cy="112" r="8" fill="#c45a3c"/>
+    <rect x="580" y="90" width="200" height="28" rx="4" fill="#c45a3c" opacity="0.15"/>
+    <text x="680" y="108" font-size="10" fill="#8a3a2a" text-anchor="middle">"I don't know who you are anymore."</text>
+  </g>
+
+  <!-- Legend -->
+  <line x1="100" y1="465" x2="140" y2="465" stroke="#c45a3c" stroke-width="3"/>
+  <text x="150" y="469" font-size="12" fill="#5a4a3a">Unspoken truths compounding</text>
+
+  <line x1="380" y1="465" x2="420" y2="465" stroke="#4a8a5a" stroke-width="3" stroke-dasharray="8,4"/>
+  <text x="430" y="469" font-size="12" fill="#5a4a3a">With daily honest check-ins</text>
+</svg>

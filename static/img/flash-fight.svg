@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 200">
+  <rect width="750" height="200" rx="12" fill="#1a1a2e"/>
+  <!-- Step 1: Trigger -->
+  <g transform="translate(45, 40)">
+    <rect x="0" y="0" width="130" height="55" rx="8" fill="#2a2a4a" stroke="#4a9eff" stroke-width="1.5"/>
+    <text x="65" y="22" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#4a9eff">💬 Trigger</text>
+    <text x="65" y="42" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">"Did you already eat?"</text>
+  </g>
+  <!-- Arrow 1 -->
+  <g transform="translate(185, 60)">
+    <line x1="0" y1="7" x2="30" y2="7" stroke="#666" stroke-width="1.5"/>
+    <polygon points="30,2 40,7 30,12" fill="#666"/>
+  </g>
+  <!-- Step 2: Misread -->
+  <g transform="translate(230, 40)">
+    <rect x="0" y="0" width="130" height="55" rx="8" fill="#2a2a4a" stroke="#f0a500" stroke-width="1.5"/>
+    <text x="65" y="22" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#f0a500">🎭 Misread</text>
+    <text x="65" y="42" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">Heard: "You should</text>
+    <text x="65" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">have waited for me"</text>
+  </g>
+  <!-- Arrow 2 -->
+  <g transform="translate(370, 60)">
+    <line x1="0" y1="7" x2="30" y2="7" stroke="#666" stroke-width="1.5"/>
+    <polygon points="30,2 40,7 30,12" fill="#666"/>
+  </g>
+  <!-- Step 3: Reaction -->
+  <g transform="translate(415, 40)">
+    <rect x="0" y="0" width="130" height="55" rx="8" fill="#2a2a4a" stroke="#dc3545" stroke-width="1.5"/>
+    <text x="65" y="22" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#dc3545">😤 Reaction</text>
+    <text x="65" y="42" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">"Why do you always</text>
+    <text x="65" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">make me feel guilty?"</text>
+  </g>
+  <!-- Arrow 3 -->
+  <g transform="translate(555, 60)">
+    <line x1="0" y1="7" x2="30" y2="7" stroke="#666" stroke-width="1.5"/>
+    <polygon points="30,2 40,7 30,12" fill="#666"/>
+  </g>
+  <!-- Step 4: Escalation -->
+  <g transform="translate(600, 40)">
+    <rect x="0" y="0" width="110" height="55" rx="8" fill="#2a2a4a" stroke="#dc3545" stroke-width="2"/>
+    <text x="55" y="22" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#dc3545">💥 Escalation</text>
+    <text x="55" y="42" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">Both fighting</text>
+    <text x="55" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">ghosts</text>
+  </g>
+  <!-- Bottom note -->
+  <text x="375" y="130" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#666" font-style="italic">The fight isn't about dinner. It never was.</text>
+  <!-- What was actually meant -->
+  <g transform="translate(45, 145)">
+    <rect x="0" y="0" width="660" height="35" rx="6" fill="#1a2a1a" stroke="#28a745" stroke-width="1" opacity="0.8"/>
+    <text x="330" y="15" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#28a745">✅ What was actually meant: "I was hoping we'd eat together."</text>
+    <text x="330" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#28a745" opacity="0.7">One sentence of clarity would have prevented the entire chain.</text>
+  </g>
+</svg>

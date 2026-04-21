@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f4f0"/>
+      <stop offset="100%" stop-color="#ede4da"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#bg3)"/>
+
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="bold" fill="#3a2a1a">The Five Daily Drifts</text>
+  <text x="400" y="72" text-anchor="middle" font-size="14" fill="#7a6a5a" font-style="italic">Small patterns that silently create distance</text>
+
+  <!-- Drift 1 -->
+  <g transform="translate(0,100)">
+    <circle cx="80" cy="45" r="35" fill="#c45a3c" opacity="0.15"/>
+    <text x="80" y="52" text-anchor="middle" font-size="28" font-weight="bold" fill="#c45a3c">1</text>
+    <text x="130" y="35" font-size="18" font-weight="bold" fill="#3a2a1a">The Shorthand Assumption</text>
+    <text x="130" y="58" font-size="13" fill="#6a5a4a">"They should know what I mean by now."</text>
+    <rect x="130" y="70" width="620" height="40" rx="6" fill="#c45a3c" opacity="0.06"/>
+    <text x="145" y="90" font-size="12" fill="#7a5a4a">The longer we know someone, the less we explain.</text>
+    <text x="145" y="105" font-size="12" fill="#7a5a4a">Shared history ≠ shared understanding.</text>
+  </g>
+
+  <!-- Drift 2 -->
+  <g transform="translate(0,250)">
+    <circle cx="80" cy="45" r="35" fill="#d4853c" opacity="0.15"/>
+    <text x="80" y="52" text-anchor="middle" font-size="28" font-weight="bold" fill="#d4853c">2</text>
+    <text x="130" y="35" font-size="18" font-weight="bold" fill="#3a2a1a">The Protective Edit</text>
+    <text x="130" y="58" font-size="13" fill="#6a5a4a">Typing the real message... then deleting it.</text>
+    <rect x="130" y="70" width="620" height="40" rx="6" fill="#d4853c" opacity="0.06"/>
+    <text x="145" y="90" font-size="12" fill="#7a5a4a">We self-censor dozens of times a day. Not lies — just edits.</text>
+    <text x="145" y="105" font-size="12" fill="#7a5a4a">Over time, people interact with a curated version of us.</text>
+  </g>
+
+  <!-- Drift 3 -->
+  <g transform="translate(0,400)">
+    <circle cx="80" cy="45" r="35" fill="#8a7a3c" opacity="0.15"/>
+    <text x="80" y="52" text-anchor="middle" font-size="28" font-weight="bold" fill="#8a7a3c">3</text>
+    <text x="130" y="35" font-size="18" font-weight="bold" fill="#3a2a1a">The Unasked Question</text>
+    <text x="130" y="58" font-size="13" fill="#6a5a4a">Sensing something is off... and choosing not to ask.</text>
+    <rect x="130" y="70" width="620" height="40" rx="6" fill="#8a7a3c" opacity="0.06"/>
+    <text x="145" y="90" font-size="12" fill="#7a5a4a">We notice the short reply, the change in energy.</text>
+    <text x="145" y="105" font-size="12" fill="#7a5a4a">The other person registers: they didn't ask. Maybe they don't care.</text>
+  </g>
+
+  <!-- Drift 4 -->
+  <g transform="translate(0,550)">
+    <circle cx="80" cy="45" r="35" fill="#4a7a8a" opacity="0.15"/>
+    <text x="80" y="52" text-anchor="middle" font-size="28" font-weight="bold" fill="#4a7a8a">4</text>
+    <text x="130" y="35" font-size="18" font-weight="bold" fill="#3a2a1a">The Performative Response</text>
+    <text x="130" y="58" font-size="13" fill="#6a5a4a">"That's great!" (It's not.) "I'm happy for you!" (I'm conflicted.)</text>
+    <rect x="130" y="70" width="620" height="40" rx="6" fill="#4a7a8a" opacity="0.06"/>
+    <text x="145" y="90" font-size="12" fill="#7a5a4a">Social scripts keep things smooth but shallow.</text>
+    <text x="145" y="105" font-size="12" fill="#7a5a4a">People start feeling lonely in the presence of others.</text>
+  </g>
+
+  <!-- Drift 5 -->
+  <g transform="translate(0,700)">
+    <circle cx="80" cy="45" r="35" fill="#6a4a7a" opacity="0.15"/>
+    <text x="80" y="52" text-anchor="middle" font-size="28" font-weight="bold" fill="#6a4a7a">5</text>
+    <text x="130" y="35" font-size="18" font-weight="bold" fill="#3a2a1a">The Delayed Truth</text>
+    <text x="130" y="58" font-size="13" fill="#6a5a4a">"I'll bring it up later." (You won't.)</text>
+    <rect x="130" y="70" width="620" height="40" rx="6" fill="#6a4a7a" opacity="0.06"/>
+    <text x="145" y="90" font-size="12" fill="#7a5a4a">The right moment never comes. Delay is avoidance wearing a watch.</text>
+    <text x="145" y="105" font-size="12" fill="#7a5a4a">The longer a truth stays unspoken, the heavier it gets.</text>
+  </g>
+
+  <!-- Bottom -->
+  <text x="400" y="860" text-anchor="middle" font-size="14" fill="#8a7a6a" font-style="italic">"Unexpressed emotions will never die. They are buried alive</text>
+  <text x="400" y="880" text-anchor="middle" font-size="14" fill="#8a7a6a" font-style="italic">and will come forth later in uglier ways." — Sigmund Freud</text>
+</svg>

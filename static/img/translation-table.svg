@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f0f5"/>
+      <stop offset="100%" stop-color="#e8dce8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg5)"/>
+
+  <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#3a2a3a">Said vs. Meant — The Translation Table</text>
+
+  <!-- Header -->
+  <rect x="40" y="65" width="230" height="40" rx="6" fill="#6a4a6a" opacity="0.15"/>
+  <rect x="285" y="65" width="260" height="40" rx="6" fill="#8a3a3a" opacity="0.12"/>
+  <rect x="560" y="65" width="200" height="40" rx="6" fill="#3a3a6a" opacity="0.12"/>
+  <text x="155" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a2a4a">What Is Said</text>
+  <text x="415" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#6a2a2a">What Is Meant</text>
+  <text x="660" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#2a2a5a">What Is Lost</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="115" width="720" height="55" rx="4" fill="white" opacity="0.6"/>
+  <text x="155" y="140" text-anchor="middle" font-size="13" fill="#4a3a4a">"I'm fine."</text>
+  <text x="415" y="135" text-anchor="middle" font-size="11" fill="#6a4a4a">"I need you to ask again,</text>
+  <text x="415" y="150" text-anchor="middle" font-size="11" fill="#6a4a4a">gently."</text>
+  <text x="660" y="140" text-anchor="middle" font-size="12" fill="#3a3a5a" font-style="italic">The chance to connect</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="178" width="720" height="55" rx="4" fill="white" opacity="0.35"/>
+  <text x="155" y="200" text-anchor="middle" font-size="13" fill="#4a3a4a">"Do whatever you want."</text>
+  <text x="415" y="198" text-anchor="middle" font-size="11" fill="#6a4a4a">"I want you to care enough</text>
+  <text x="415" y="213" text-anchor="middle" font-size="11" fill="#6a4a4a">to choose me."</text>
+  <text x="660" y="205" text-anchor="middle" font-size="12" fill="#3a3a5a" font-style="italic">Trust, slowly</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="241" width="720" height="55" rx="4" fill="white" opacity="0.6"/>
+  <text x="155" y="266" text-anchor="middle" font-size="13" fill="#4a3a4a">"Let's circle back."</text>
+  <text x="415" y="261" text-anchor="middle" font-size="11" fill="#6a4a4a">"I'm killing this idea</text>
+  <text x="415" y="276" text-anchor="middle" font-size="11" fill="#6a4a4a">politely."</text>
+  <text x="660" y="268" text-anchor="middle" font-size="12" fill="#3a3a5a" font-style="italic">Honest feedback, time</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="304" width="720" height="55" rx="4" fill="white" opacity="0.35"/>
+  <text x="155" y="329" text-anchor="middle" font-size="13" fill="#4a3a4a">"Sure, I can take that on."</text>
+  <text x="415" y="324" text-anchor="middle" font-size="11" fill="#6a4a4a">"I'm already drowning but</text>
+  <text x="415" y="339" text-anchor="middle" font-size="11" fill="#6a4a4a">can't say no."</text>
+  <text x="660" y="331" text-anchor="middle" font-size="12" fill="#3a3a5a" font-style="italic">Wellbeing, eventually</text>
+  <text x="660" y="346" text-anchor="middle" font-size="12" fill="#3a3a5a" font-style="italic">the person</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="367" width="720" height="55" rx="4" fill="white" opacity="0.6"/>
+  <text x="155" y="392" text-anchor="middle" font-size="13" fill="#4a3a4a">"It doesn't matter."</text>
+  <text x="415" y="387" text-anchor="middle" font-size="11" fill="#6a4a4a">"It matters so much</text>
+  <text x="415" y="402" text-anchor="middle" font-size="11" fill="#6a4a4a">I can't say it."</text>
+  <text x="660" y="395" text-anchor="middle" font-size="12" fill="#3a3a5a" font-style="italic">Vulnerability</text>
+
+  <!-- Divider lines -->
+  <line x1="275" y1="70" x2="275" y2="420" stroke="#b8a8b8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="550" y1="70" x2="550" y2="420" stroke="#b8a8b8" stroke-width="0.5" opacity="0.5"/>
+</svg>

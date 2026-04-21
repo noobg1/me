@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f5f0"/>
+      <stop offset="100%" stop-color="#dae8da"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="580" fill="url(#bg4)"/>
+
+  <text x="400" y="40" text-anchor="middle" font-size="26" font-weight="bold" fill="#2a4a2a">The Practical Playbook</text>
+  <text x="400" y="65" text-anchor="middle" font-size="14" fill="#5a7a5a" font-style="italic">5 micro-practices to close the daily gap</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(30,90)">
+    <rect width="235" height="150" rx="12" fill="white" stroke="#8ab88a" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="16" fill="#4a8a5a" opacity="0.2"/>
+    <text x="30" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a8a5a">1</text>
+    <text x="55" y="35" font-size="13" font-weight="bold" fill="#2a4a2a">"What I'm Really</text>
+    <text x="55" y="50" font-size="13" font-weight="bold" fill="#2a4a2a">Saying Is..."</text>
+    <text x="15" y="75" font-size="11" fill="#5a6a5a">A mid-conversation reset.</text>
+    <text x="15" y="91" font-size="11" fill="#5a6a5a">Signals honesty. People</text>
+    <text x="15" y="107" font-size="11" fill="#5a6a5a">lean in when they hear it.</text>
+    <text x="15" y="137" font-size="10" fill="#8a9a8a" font-style="italic">Works in every context.</text>
+  </g>
+
+  <g transform="translate(282,90)">
+    <rect width="235" height="150" rx="12" fill="white" stroke="#8ab88a" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="16" fill="#4a8a5a" opacity="0.2"/>
+    <text x="30" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a8a5a">2</text>
+    <text x="55" y="35" font-size="13" font-weight="bold" fill="#2a4a2a">Name the Dynamic</text>
+    <text x="15" y="60" font-size="11" fill="#5a6a5a">Not "you're being distant."</text>
+    <text x="15" y="76" font-size="11" fill="#5a6a5a">Instead: "I notice we're both</text>
+    <text x="15" y="92" font-size="11" fill="#5a6a5a">being careful right now."</text>
+    <text x="15" y="125" font-size="10" fill="#8a9a8a" font-style="italic">Makes the pattern the problem,</text>
+    <text x="15" y="138" font-size="10" fill="#8a9a8a" font-style="italic">not the person.</text>
+  </g>
+
+  <g transform="translate(534,90)">
+    <rect width="235" height="150" rx="12" fill="white" stroke="#8ab88a" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="16" fill="#4a8a5a" opacity="0.2"/>
+    <text x="30" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a8a5a">3</text>
+    <text x="55" y="35" font-size="13" font-weight="bold" fill="#2a4a2a">Curiosity Over</text>
+    <text x="55" y="50" font-size="13" font-weight="bold" fill="#2a4a2a">Conclusion</text>
+    <text x="15" y="75" font-size="11" fill="#5a6a5a">"The story I'm telling</text>
+    <text x="15" y="91" font-size="11" fill="#5a6a5a">myself is..." — Brené Brown</text>
+    <text x="15" y="125" font-size="10" fill="#8a9a8a" font-style="italic">Own the interpretation.</text>
+    <text x="15" y="138" font-size="10" fill="#8a9a8a" font-style="italic">Don't project it.</text>
+  </g>
+
+  <!-- Row 2 — centered -->
+  <g transform="translate(155,270)">
+    <rect width="235" height="150" rx="12" fill="white" stroke="#8ab88a" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="16" fill="#4a8a5a" opacity="0.2"/>
+    <text x="30" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a8a5a">4</text>
+    <text x="55" y="35" font-size="13" font-weight="bold" fill="#2a4a2a">Evening Check-In</text>
+    <text x="15" y="60" font-size="11" fill="#5a6a5a">One question, daily:</text>
+    <text x="15" y="78" font-size="11" fill="#5a6a5a">"Is there anything unsaid</text>
+    <text x="15" y="94" font-size="11" fill="#5a6a5a">between us right now?"</text>
+    <text x="15" y="125" font-size="10" fill="#8a9a8a" font-style="italic">Zero the gap every 24 hours.</text>
+  </g>
+
+  <g transform="translate(410,270)">
+    <rect width="235" height="150" rx="12" fill="white" stroke="#8ab88a" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="16" fill="#4a8a5a" opacity="0.2"/>
+    <text x="30" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a8a5a">5</text>
+    <text x="55" y="35" font-size="13" font-weight="bold" fill="#2a4a2a">The Repair Bid</text>
+    <text x="15" y="60" font-size="11" fill="#5a6a5a">"I think I said that badly.</text>
+    <text x="15" y="76" font-size="11" fill="#5a6a5a">Can I try again?"</text>
+    <text x="15" y="100" font-size="11" fill="#5a6a5a">You can't prevent every drift.</text>
+    <text x="15" y="116" font-size="11" fill="#5a6a5a">But you can repair before</text>
+    <text x="15" y="132" font-size="11" fill="#5a6a5a">it compounds. — Gottman</text>
+  </g>
+
+  <!-- Bottom quote -->
+  <rect x="100" y="460" width="600" height="50" rx="10" fill="#4a8a5a" opacity="0.08"/>
+  <text x="400" y="483" text-anchor="middle" font-size="14" fill="#3a5a3a" font-style="italic">"Between stimulus and response there is a space.</text>
+  <text x="400" y="503" text-anchor="middle" font-size="14" fill="#3a5a3a" font-style="italic">In that space is our freedom to choose." — Viktor Frankl</text>
+</svg>
