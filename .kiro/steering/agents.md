@@ -40,3 +40,12 @@ date: YYYY-MM-DD
 - PNG must be 1200×630, with the SVG rendered at native aspect ratio and centered on a dark (#1b1b1d) canvas
 - Add `image: /img/<banner>.png` to frontmatter
 - SVGs alone are NOT supported by social media crawlers
+
+## Tone & Voice
+
+- Never preach. Share perspectives, don't lecture. The reader is a peer, not a student.
+- Avoid directive "you need to" / "you should" / "you must" phrasing — prefer neutral framing ("this helps", "one way to think about it", "the idea is")
+- Conversational "you" in storytelling is fine ("You sit in a meeting...") — directive "you" that tells the reader what to do is not
+- Opinionated is good. Preachy is not. The difference: opinionated says "here's what I think and why." Preachy says "here's what you should do."
+- Back claims with research, named frameworks, or real-world examples — not authority of voice
+- Vulnerability and honesty > confidence and certainty

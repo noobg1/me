@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#1a1a1a"/>
+
+  <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#e0e0e0">The Compound Effect of Not Being Stupid</text>
+  <text x="400" y="62" text-anchor="middle" font-size="12" fill="#888" font-style="italic">small bad decisions compound — so do small good ones</text>
+
+  <!-- Y axis -->
+  <line x1="80" y1="380" x2="80" y2="90" stroke="#444" stroke-width="1.5"/>
+  <text x="35" y="240" text-anchor="middle" font-size="11" fill="#888" transform="rotate(-90,35,240)">Team Effectiveness</text>
+
+  <!-- X axis -->
+  <line x1="80" y1="380" x2="720" y2="380" stroke="#444" stroke-width="1.5"/>
+  <text x="400" y="405" text-anchor="middle" font-size="11" fill="#888">Time</text>
+
+  <!-- Decline curve (bad decisions compounding) -->
+  <path d="M80,240 C150,242 220,250 300,270 C380,295 450,330 540,355 C600,368 660,375 720,378" fill="none" stroke="#dc3545" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- Growth curve (inversions compounding) -->
+  <path d="M80,240 C150,238 220,228 300,210 C380,185 450,155 540,130 C600,115 660,105 720,100" fill="none" stroke="#28a745" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- Starting point -->
+  <circle cx="80" cy="240" r="6" fill="#f0a500"/>
+  <text x="95" y="236" font-size="10" fill="#f0a500">Today</text>
+
+  <!-- Time markers -->
+  <g font-size="10" fill="#666">
+    <line x1="240" y1="375" x2="240" y2="385" stroke="#444" stroke-width="1"/>
+    <text x="240" y="398" text-anchor="middle">Month 1</text>
+    <line x1="400" y1="375" x2="400" y2="385" stroke="#444" stroke-width="1"/>
+    <text x="400" y="398" text-anchor="middle">Month 6</text>
+    <line x1="580" y1="375" x2="580" y2="385" stroke="#444" stroke-width="1"/>
+    <text x="580" y="398" text-anchor="middle">Year 1</text>
+  </g>
+
+  <!-- Annotations on decline curve -->
+  <circle cx="300" cy="270" r="4" fill="#dc3545"/>
+  <rect x="195" y="278" width="210" height="20" rx="3" fill="#dc3545" opacity="0.15"/>
+  <text x="300" y="292" text-anchor="middle" font-size="9" fill="#dc3545">"They can't seem to operate independently"</text>
+
+  <circle cx="580" cy="365" r="4" fill="#dc3545"/>
+  <rect x="490" y="340" width="180" height="20" rx="3" fill="#dc3545" opacity="0.15"/>
+  <text x="580" y="354" text-anchor="middle" font-size="9" fill="#dc3545">"We need more process"</text>
+
+  <!-- Annotations on growth curve -->
+  <circle cx="300" cy="210" r="4" fill="#28a745"/>
+  <rect x="210" y="192" width="180" height="20" rx="3" fill="#28a745" opacity="0.15"/>
+  <text x="300" y="206" text-anchor="middle" font-size="9" fill="#28a745">"The team handled it without me"</text>
+
+  <circle cx="580" cy="122" r="4" fill="#28a745"/>
+  <rect x="490" y="100" width="180" height="20" rx="3" fill="#28a745" opacity="0.15"/>
+  <text x="580" y="114" text-anchor="middle" font-size="9" fill="#28a745">"They saw it before I did"</text>
+
+  <!-- Legend -->
+  <line x1="180" y1="435" x2="210" y2="435" stroke="#dc3545" stroke-width="2.5"/>
+  <text x="220" y="439" font-size="10" fill="#888">Small bad decisions compounding</text>
+
+  <line x1="460" y1="435" x2="490" y2="435" stroke="#28a745" stroke-width="2.5"/>
+  <text x="500" y="439" font-size="10" fill="#888">Small inversions compounding</text>
+
+  <!-- Munger quote -->
+  <rect x="140" y="448" width="520" height="24" rx="4" fill="#e2b714" opacity="0.1"/>
+  <text x="400" y="465" text-anchor="middle" font-size="10" fill="#e2b714" font-style="italic">"Consistently not stupid beats occasionally brilliant." — Munger</text>
+</svg>

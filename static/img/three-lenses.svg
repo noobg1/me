@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="280" fill="#1a1a1a"/>
+
+  <!-- Lens 1: Ownership & Autonomy -->
+  <g transform="translate(60, 25)">
+    <circle cx="90" cy="70" r="60" fill="none" stroke="#4a9eff" stroke-width="2.5" opacity="0.8"/>
+    <text x="90" y="60" text-anchor="middle" font-size="28" fill="#4a9eff">🔗</text>
+    <text x="90" y="88" text-anchor="middle" font-size="16" font-weight="600" fill="#4a9eff">Ownership</text>
+    <text x="90" y="155" text-anchor="middle" font-size="14" fill="#ccc">"Am I enabling agency</text>
+    <text x="90" y="175" text-anchor="middle" font-size="14" fill="#ccc">or creating dependency?"</text>
+  </g>
+
+  <!-- Connector -->
+  <circle cx="300" cy="95" r="3" fill="#555"/>
+  <circle cx="320" cy="95" r="3" fill="#555"/>
+  <circle cx="340" cy="95" r="3" fill="#555"/>
+
+  <!-- Lens 2: Trust -->
+  <g transform="translate(340, 25)">
+    <circle cx="90" cy="70" r="60" fill="none" stroke="#f0a500" stroke-width="2.5" opacity="0.8"/>
+    <text x="90" y="60" text-anchor="middle" font-size="28" fill="#f0a500">💔</text>
+    <text x="90" y="88" text-anchor="middle" font-size="16" font-weight="600" fill="#f0a500">Trust</text>
+    <text x="90" y="155" text-anchor="middle" font-size="14" fill="#ccc">"Am I making honesty</text>
+    <text x="90" y="175" text-anchor="middle" font-size="14" fill="#ccc">cheaper or more expensive?"</text>
+  </g>
+
+  <!-- Connector -->
+  <circle cx="580" cy="95" r="3" fill="#555"/>
+  <circle cx="600" cy="95" r="3" fill="#555"/>
+  <circle cx="620" cy="95" r="3" fill="#555"/>
+
+  <!-- Lens 3: Clarity of Purpose -->
+  <g transform="translate(620, 25)">
+    <circle cx="90" cy="70" r="60" fill="none" stroke="#28a745" stroke-width="2.5" opacity="0.8"/>
+    <text x="90" y="60" text-anchor="middle" font-size="28" fill="#28a745">🧠</text>
+    <text x="90" y="88" text-anchor="middle" font-size="16" font-weight="600" fill="#28a745">Clarity</text>
+    <text x="90" y="155" text-anchor="middle" font-size="14" fill="#ccc">"Am I adding</text>
+    <text x="90" y="175" text-anchor="middle" font-size="14" fill="#ccc">noise or signal?"</text>
+  </g>
+
+  <!-- Bottom tagline -->
+  <text x="450" y="240" text-anchor="middle" font-size="16" fill="#888" font-style="italic">three questions — that's the whole playbook</text>
+</svg>
